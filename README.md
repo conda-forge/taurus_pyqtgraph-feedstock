@@ -1,7 +1,7 @@
 About taurus_pyqtgraph
 ======================
 
-Home: https://github.com/taurus-org/taurus_pyqtgraph
+Home: https://gitlab.com/taurus-org/taurus_pyqtgraph
 
 Package license: LGPL-3.0-or-later
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taurus_pyqtgrap
 
 Summary: Taurus extension providing pyqtgraph-based widgets
 
-Development: https://github.com/taurus-org/taurus_pyqtgraph
+Development: https://gitlab.com/taurus-org/taurus_pyqtgraph
 
 Documentation: http://taurus-scada.org
 
