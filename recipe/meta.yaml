@@ -10,7 +10,7 @@ source:
   sha256: 34b6faed3983128a3196b48c79c2547b6075e4ed50bbc6ed935bf65f7470140d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,7 +36,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/taurus-org/taurus_pyqtgraph
+  home: https://gitlab.com/taurus-org/taurus_pyqtgraph
   license: LGPL-3.0-or-later
   license_file: LICENSE.txt
   summary: Taurus extension providing pyqtgraph-based widgets
@@ -45,7 +45,7 @@ about:
     It adds the taurus.qt.qtgui.tpg submodule which provides pyqtgraph-based
     widgets.
   doc_url: http://taurus-scada.org
-  dev_url: https://github.com/taurus-org/taurus_pyqtgraph
+  dev_url: https://gitlab.com/taurus-org/taurus_pyqtgraph
 
 extra:
   recipe-maintainers:
