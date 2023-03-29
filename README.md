@@ -1,11 +1,11 @@
-About taurus_pyqtgraph
-======================
+About taurus_pyqtgraph-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taurus_pyqtgraph-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/taurus-org/taurus_pyqtgraph
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taurus_pyqtgraph-feedstock/blob/main/LICENSE.txt)
 
 Summary: Taurus extension providing pyqtgraph-based widgets
 
