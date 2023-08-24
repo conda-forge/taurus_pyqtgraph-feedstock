@@ -1,5 +1,5 @@
 {% set name = "taurus_pyqtgraph" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7e35065654d6e263d13a46269e5a45a7d44c08965fc7a542fadb4af83a8e1ae9
+  sha256: b45d3352c5bcbda0009571fb2d9ee7fd54d443320102083b7a676bc6a274f9d7
 
 build:
   number: 0
