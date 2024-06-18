@@ -25,6 +25,7 @@ requirements:
     - pyqtgraph >=0.11
     - python >=3.6
     - taurus >=4.5.2
+    - numpy <2.0
 
 test:
   imports:
