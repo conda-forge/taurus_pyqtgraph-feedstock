@@ -18,13 +18,13 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - click
     - lxml
     - ply
     - pyqtgraph >=0.11
-    - python >=3.6
+    - python >={{ python_min }}
     - taurus >=4.5.2
 
 test:
@@ -34,6 +34,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
