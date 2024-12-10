@@ -1,5 +1,5 @@
 {% set name = "taurus_pyqtgraph" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f5ecc0807ff59f2eb87dcedfe1c79a41e983a1bf95889baeae9d14108b1a0e0a
+  sha256: 4253b307afcbd6b2edd96f773a765a0c6156bf29305c1e25f9800e86cabeae9b
 
 build:
   number: 0
@@ -18,13 +18,13 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - click
     - lxml
     - ply
     - pyqtgraph >=0.11
-    - python >=3.6
+    - python >={{ python_min }}
     - taurus >=4.5.2
 
 test:
@@ -34,6 +34,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
