@@ -26,6 +26,7 @@ requirements:
     - pyqtgraph >=0.11
     - python >={{ python_min }}
     - taurus >=4.5.2
+    - pyhdbpp
 
 test:
   imports:
