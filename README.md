@@ -11,12 +11,11 @@ Summary: Taurus extension providing pyqtgraph-based widgets
 
 Development: https://gitlab.com/taurus-org/taurus_pyqtgraph
 
-Documentation: http://taurus-scada.org
+Documentation: http://taurus-scada.org/
 
 taurus_pyqtgraph is an extension for the Taurus package.
 It adds the taurus.qt.qtgui.tpg submodule which provides pyqtgraph-based
 widgets.
-
 
 Current build status
 ====================
@@ -36,7 +35,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-taurus_pyqtgraph-green.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/taurus_pyqtgraph.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/taurus_pyqtgraph.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/taurus_pyqtgraph.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-taurus__pyqtgraph-green.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/taurus_pyqtgraph.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/taurus_pyqtgraph.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/taurus_pyqtgraph.svg)](https://anaconda.org/conda-forge/taurus_pyqtgraph) |
 
 Installing taurus_pyqtgraph
 ===========================
