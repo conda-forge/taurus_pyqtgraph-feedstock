@@ -35,13 +35,10 @@ tests:
       imports:
         - taurus_pyqtgraph
         - taurus_pyqtgraph.examples
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
-        - pip
-    script:
-      - pip check
+      python_version:
+        - ${{ python_min }}.*
+        - 3.*
+      pip_check: true
 
 about:
   license: LGPL-3.0-or-later
