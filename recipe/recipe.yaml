@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: taurus_pyqtgraph
-  version: 0.9.7
+  version: "0.9.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: aec7e58da154bdc5efc2796cae6bc5a699b8203212d7a26a63cd9065c9c30725
+  sha256: e86eb8622bd172cef2f1c234eca8fcb319e701947035826fa0c9daadf8864a36
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
